@@ -1,0 +1,425 @@
+/* Product Page Specific Styles */
+
+.logo a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Product Hero Section */
+.product-hero {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    text-align: center;
+    padding: 150px 2rem 4rem;
+    margin-top: -100px;
+    border-radius: 0 0 50px 50px;
+}
+
+.product-intro .product-icon {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+
+.product-intro h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.product-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+    font-weight: 300;
+}
+
+.product-description {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+    opacity: 0.95;
+}
+
+/* Build Overview */
+.build-overview {
+    background: white;
+    border-radius: 20px;
+    margin: 2rem auto;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.build-overview h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #2c3e50;
+}
+
+.overview-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+
+.overview-item {
+    text-align: center;
+    padding: 1.5rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.overview-item:hover {
+    border-color: #3498db;
+}
+
+.overview-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+}
+
+.overview-item p {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #3498db;
+}
+
+/* Parts List */
+.parts-list {
+    background: #ecf0f1;
+    border-radius: 20px;
+    margin: 2rem auto;
+}
+
+.parts-list h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+.parts-intro {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+    color: #666;
+}
+
+.parts-category {
+    margin-bottom: 3rem;
+}
+
+.parts-category h3 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    color: #2c3e50;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 0.5rem;
+}
+
+.parts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.part-item {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.part-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.part-item h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+}
+
+.part-item p {
+    color: #666;
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.price {
+    display: inline-block;
+    background: #e74c3c;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.amazon-link {
+    display: inline-block;
+    background: #ff9900;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.amazon-link:hover {
+    background: #e68a00;
+}
+
+/* Build Instructions */
+.build-instructions {
+    background: white;
+    border-radius: 20px;
+    margin: 2rem auto;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.build-instructions h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #2c3e50;
+}
+
+.instruction-step {
+    display: flex;
+    margin-bottom: 3rem;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.step-number {
+    background: #3498db;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.step-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+.step-content p {
+    margin-bottom: 1rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+.step-content ul {
+    margin-left: 1.5rem;
+}
+
+.step-content li {
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+/* Software Setup */
+.software-setup {
+    background: #ecf0f1;
+    border-radius: 20px;
+    margin: 2rem auto;
+}
+
+.software-setup h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #2c3e50;
+}
+
+.software-section {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.software-section h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+.software-section p {
+    margin-bottom: 1rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+.software-section ol {
+    margin-left: 2rem;
+}
+
+.software-section li {
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+.software-section a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.software-section a:hover {
+    text-decoration: underline;
+}
+
+/* Safety & Legal */
+.safety-legal {
+    background: white;
+    border-radius: 20px;
+    margin: 2rem auto;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.safety-legal h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #e74c3c;
+}
+
+.warning-box {
+    background: #fff5f5;
+    border: 2px solid #e74c3c;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.warning-box h3 {
+    color: #e74c3c;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.warning-box ul {
+    margin-left: 1.5rem;
+}
+
+.warning-box li {
+    margin-bottom: 0.8rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.warning-box strong {
+    color: #e74c3c;
+}
+
+/* Next Steps / Integration */
+.next-steps {
+    background: #ecf0f1;
+    border-radius: 20px;
+    margin: 2rem auto;
+}
+
+.next-steps h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #2c3e50;
+}
+
+.next-steps > p {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+    color: #666;
+}
+
+.integration-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.integration-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+
+.integration-card:hover {
+    transform: translateY(-5px);
+}
+
+.integration-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.integration-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+.integration-card p {
+    margin-bottom: 1.5rem;
+    color: #666;
+}
+
+/* Responsive Design for Product Pages */
+@media (max-width: 768px) {
+    .product-intro h1 {
+        font-size: 2.5rem;
+    }
+    
+    .product-subtitle {
+        font-size: 1.2rem;
+    }
+    
+    .overview-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .parts-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .instruction-step {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .step-number {
+        margin: 0 auto 1rem auto;
+    }
+    
+    .integration-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .overview-grid {
+        grid-template-columns: 1fr;
+    }
+}
