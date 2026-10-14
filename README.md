@@ -64,3 +64,11 @@ Licensed under the Apache License 2.0. See [LICENSE](LICENSE) for details.
 ## Contributing
 
 This project is open source and welcomes contributions. Please ensure all contributions maintain the privacy-first, local-only approach that is core to the Gargoyle philosophy.
+
+## Cloudflare publishing
+
+Native Cloudflare Git builds publish `main`. Validate with `npm ci` and
+`npm run check:deploy`; build uses `npm run build`, deployment `npm run deploy`.
+Only the reviewed public file list is copied to `dist`; original public content
+and GitHub Pages recovery remain. Credentials stay in Cloudflare and previews
+are disabled. The revision is at `/.well-known/cloudflare-build.json`.
